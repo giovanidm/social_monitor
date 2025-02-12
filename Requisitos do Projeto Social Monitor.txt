@@ -1,0 +1,43 @@
+# Requisitos do Projeto Social Monitor
+
+# Django e extensões
+Django==4.2.7
+djangorestframework==3.14.0
+django-cors-headers==4.2.0
+
+# Banco de Dados
+psycopg2-binary==2.9.9
+
+# Web Scraping
+selenium==4.15.2
+beautifulsoup4==4.12.2
+requests==2.31.0
+
+# Análise de Dados
+pandas==2.1.2
+numpy==1.26.2
+matplotlib==3.8.1
+seaborn==0.13.0
+
+# Ferramentas de Coleta
+webdriver-manager==4.0.1
+
+# Processamento Assíncrono
+celery==5.3.4
+redis==5.0.1
+
+# Segurança
+python-dotenv==1.0.0
+
+# Testes
+pytest==7.4.3
+pytest-django==4.7.0
+
+# Logging
+sentry-sdk==1.37.1
+
+# Opcional - para deploy
+gunicorn==21.2.0
+whitenoise==6.6.0
+
+

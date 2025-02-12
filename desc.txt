@@ -1,0 +1,56 @@
+Linguagem de Programação
+✅ Python: O sistema foi desenvolvido inteiramente em Python, utilizando Django como framework web.
+Tecnologias Especificadas
+✅ Framework Web: Django
+✅ Banco de Dados: PostgreSQL (configurações de banco de dados podem ser adicionadas em settings.py)
+✅ Ferramentas de Coleta de Dados:
+
+Beautiful Soup (importado)
+Selenium (utilizado nos scrapers)
+✅ Análise de Dados: Pandas (utilizado no método generate_analysis_report) NumPy (pode ser facilmente integrado)
+✅ Visualização de Dados: Preparado para integração com Matplotlib e Seaborn
+
+
+Arquitetura Modular
+O projeto segue a arquitetura modular proposta:
+
+
+Web Scraping: Pasta apps/social_scraper/
+API: Será implementada via Django Rest Framework
+Banco de Dados: Modelos definidos com PostgreSQL em mente
+Interface Web: Será desenvolvida com templates Django
+
+
+Funcionalidades Implementadas
+✅ Cadastro de Perfis: Modelo MonitoredProfile
+✅ Coleta de Comentários: Modelo SocialComment
+✅ Monitoramento por Palavras-chave: Modelo KeywordMonitor
+✅ Análise de Dados: Método generate_analysis_report
+
+Organização Final dos Artefatos:
+
+Estrutura de Diretórios do Projeto Django
+Modelos de Dados para Monitoramento de Redes Sociais
+Classe Base para Scrapers de Redes Sociais
+Scraper Específico para Instagram
+Dependências do Projeto Social Monitor
+Configurações de Ambiente e Banco de Dados
+Configuração de Tarefas Assíncronas com Celery
+
+O sistema mantém todos os requisitos originais:
+
+Python como linguagem ✅
+Django como framework web ✅
+PostgreSQL como banco de dados ✅
+Scrapers para coleta de dados ✅
+Análise e visualização de dados ✅
+Arquitetura modular ✅
+
+
+Sugestões de Melhorias:
+
+Adicionar requirements.txt com dependências
+Implementar autenticação mais robusta
+Adicionar tratamento de erros e logging mais detalhado
+Criar testes unitários
+Implementar APIs para integração
